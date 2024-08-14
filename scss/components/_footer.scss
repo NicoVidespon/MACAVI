@@ -1,0 +1,17 @@
+.footer-menu {
+    position: fixed;
+    background: transparent;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-menu a{
+    color: $color-secundario;
+    text-decoration: none;
+}
