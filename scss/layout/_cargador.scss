@@ -29,7 +29,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centra el cargador */
-    background-color: white;
+    background-color: $color-secundario;
     z-index: 9999;
     width: calc(3 * var(--offset) + var(--square));
     height: calc(2 * var(--offset) + var(--square));
@@ -47,7 +47,7 @@
   
   .loadingspinner div {
     display: inline-block;
-    background: darkorange;
+    background: $color-principal;
       /*background: var(--text-color);*/
       /*box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);*/
     border: none;

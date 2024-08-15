@@ -1,4 +1,20 @@
 @media (min-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-menu{
+        display: flex;
+    }
+
+    .logo-macavi{
+        margin-left: 100px;
+    }
+    .img-header{
+        display: none;
+    }
     .footer-menu {
         display: none;
     }
